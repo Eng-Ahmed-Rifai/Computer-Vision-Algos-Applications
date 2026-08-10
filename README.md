@@ -1,31 +1,29 @@
-# Computer Vision Applications and Tasks
+# 👁️ Computer Vision Algorithms & Object Localization Pipeline
 
-This repository showcases practical implementations of various algorithms and tasks within the computer vision field. It demonstrates hands-on experience with fundamental concepts and their application to image processing, feature extraction, and more advanced deep learning tasks.
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
 
-## Overview
+Production-grade implementations of classical computer vision algorithms alongside deep learning object localization models using OpenCV and TensorFlow.
 
-This project provides working examples of key computer vision techniques, ranging from basic image manipulation to complex applications using deep learning frameworks. It includes guided projects, such as:
+---
 
-* **Object Localization with TensorFlow** (Coursera Project Network)
-* **Aerial Image Segmentation with PyTorch** (Coursera Project Network)
+## 🛠️ Core Algorithms & Implementations
 
-## Repository Content
+1. **Object Localization & Bounding Box Regression**:
+   - Neural network regression heads trained to predict bounding box coordinates `[x_min, y_min, x_max, y_max]`.
+   - Intersection over Union (**IoU**) evaluation metric implementation.
 
-This repository contains implementations of the following tasks, demonstrating a range of computer vision proficiencies:
+2. **Feature Detection & Image Alignment**:
+   - Feature matching and keypoint detection (SIFT / ORB / Harris Corner).
+   - Homography estimation and perspective image stitching.
 
-* **Image Panorama Creation:** This task implements image stitching techniques to create wide-angle panoramic images. It involves:
-    * Feature extraction using Scale-Invariant Feature Transform (SIFT) to identify corresponding points between images.
-    * Feature matching using Brute Force Matcher to establish correspondences.
-    * Homography estimation to determine the geometric transformation between images.
-    * Image warping and blending to seamlessly combine images into a final panorama.
-* **Fundamental Image Processing Techniques:** This task covers essential image manipulation and analysis techniques, including:
-    * Grayscale conversion for simplifying color information.
-    * Gaussian blurring for noise reduction and smoothing.
-    * Canny edge detection for precise edge localization.
-    * Otsu's thresholding for automatic image segmentation.
-    * Contour detection and analysis for shape recognition.
-    * Image resizing and downscaling for resolution manipulation.
-    * Morphological operations for image filtering and shape modification.
-* **Deep Learning Applications:** Demonstrates the application of deep learning frameworks to advanced computer vision problems:
-    * **Object Localization with TensorFlow:** Implementation of models to identify and locate objects within images (as part of the Coursera Project Network).
-    * **Aerial Image Segmentation with PyTorch:** Implementation of semantic segmentation models for pixel-level classification of aerial imagery (as part of the Coursera Project Network).
+3. **Spatial Filtering & Enhancement**:
+   - Gaussian blurring, Sobel edge detection, Laplacian filters, and adaptive thresholding.
+
+---
+
+## 👤 Author
+**Eng. Ahmed Rifai**  
+*AI & Computer Vision Engineer*
